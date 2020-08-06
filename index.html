@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1" />
+    <title>Body Co.</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="phone-number-bar-container">
+        <p>&#9742; (844) 707-7730</p>
+      </div>
+      <div class="navigation-bar-container">
+        <div class="better-body-co-logo-container">
+          <img src="images/better_body_co_logo.png" />
+        </div>
+        <div class="nav-container">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ingredients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Claim</a>
+            </li>
+            <img src="images/buy-now-m.png" />
+          </ul>
+        </div>
+<!--for mobile starts-->
+        <div class="mobile-nav-container">
+            <span onclick="displayNavBar()" class="fa fa-bars fa-2x"></span>
+            <div class="nav-container-mobile">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">How It Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ingredients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Claim</a>
+                </li>
+                <img src="images/buy-now-m.png" />
+              </ul>
+            </div>            
+        </div>    
+<!--for mobile ends-->
+      </div>
+    </header>
+    <div class="radiancy-introduction-component-container">
+      <img class="radiancy-introduction-desktop-image" src="images/PP-RM_BANNERS_no_CTA.jpg" />
+      <img class="radiancy-introduction-mobile-image" src="images/PP-RM_BANNERS_mobile_no_CTA_1.jpg" />
+    </div>
+    <div class="raving-women-all-around-the-world-component-container">
+      <div class="raving-women-all-around-the-world-title-component-container">
+        <h1>
+          Why Women All Around The World Are Raving About This New
+          Probiotic-Marine Collagen
+        </h1>
+      </div>
+      <div class="three-women-component-container">
+        <div class="first-woman-component-container">
+          <img src="images/woman pic_1.jpg" />
+          <div class="first-woman-feedback-component-container">
+            <p class="text-bold-and-italic">
+              Time to say bye to the lines under my eyes & around my mouth!
+            </p>
+            <p>
+              - Kate Harvey
+            </p>
+          </div>
+        </div>
+        <div class="second-woman-component-container">
+          <img src="images/woman pic_2.jpg" />
+          <div class="second-woman-feedback-component-container">
+            <p class="text-bold-and-italic">
+              Great for flakey skin!
+            </p>
+            <p>
+              - Sharon Young
+            </p>
+          </div>
+        </div>
+        <div class="third-woman-component-container">
+          <img src="images/woman pic_3.jpg" />
+          <div class="third-woman-feedback-component-container">
+            <p class="text-bold-and-italic">
+              Finally a capsule! No more fishy smells
+            </p>
+            <p>
+              - Annette xx
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--for mobile starts-->
+      <div class="three-women-mobile-component-container">
+        <div id="carouselThreeWomenControls" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselThreeWomenControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselThreeWomenControls" data-slide-to="1"></li>
+            <li data-target="#carouselThreeWomenControls" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="first-woman-mobile-component-container">
+                <img src="images/woman pic_1.jpg" />
+                <div class="three-women-caption-area">
+                  <h5>Time to say bye to the lines under my eyes & around my mouth!</h5>
+                  <p>- Kate Harvey</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="second-woman-mobile-component-container">
+                <img src="images/woman pic_2.jpg" />
+                <div class="three-women-caption-area">
+                  <h5>Finally a capsule! No more fishy smells</h5>
+                  <p>- Annette xx</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="third-woman-mobile-component-container">
+                <img src="images/woman pic_3.jpg" />
+                <div class="three-women-caption-area">
+                  <h5>Greate for flakey skin!</h5>
+                  <p>- Sharon Young</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselThreeWomenControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselThreeWomenControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!--for mobile ends-->
+    </div>
+    <div class="ageing-gracefully-shouldnt-be-this-hard-component-container">
+      <div class="ageing-gracefully-shouldnt-be-this-hard-content-container">
+        <div class="ageing-gracefully-shouldnt-be-this-hard-text-container">
+          <p class="ageing-gracefully-shouldnt-be-this-hard-paragraph" style="margin:0;">
+            
+            <img
+              class="ageing-gracefully-shouldnt-be-this-hard-image"
+              src="images/infographic_1.jpg"
+              style="float: right; height: 25vw; width: auto;"
+            />
+            <h1 class="ageing-gracefully-shouldnt-be-this-hard-title" style="font-weight: bold;" >Ageing Gracefully Shouldn't Be This Hard</h1>
+            The subtle signs of aging skin can catch many ladies by surprise.
+            Oftentimes, ladies only start to take their skincare routine more
+            seriously after spotting their first wrinkle. <br /><br />
+            By then the skin damage has already begun… and menopause amplifies
+            the effects. <br /><br />The decline in estrogen levels can lead to
+            a whole range of skin-related issues such as:
+          </p>
+          <img
+              class="ageing-gracefully-shouldnt-be-this-hard-mobile-image"
+              src="images/infographic_1.jpg"
+            />
+        </div>
+      </div>
+    </div>
+    <div class="the-science-behind-menopausal-skin-issues-component-container">
+      <div class="the-science-behind-menopausal-skin-issues-content-container">
+        <h1>The Science Behind Menopausal Skin Issues - Why Some Ladies Look Older Than They Actually Are</h1>
+        <div class="the-science-behind-menopausal-skin-issues-content">
+          <p>The skin is made up of 3 main layers & the health of each layer impacts the overall look and feel of our skin.</p>
+          <p>During menopause, the fluctuating estrogen levels causes each layer to deteriorate over time:</p>
+          <img class="the-science-behind-menopausal-skin-issues-img" src="images/infographic_cake_desktop.jpg" style="width: 100%; height: auto;">
+          <img class="the-science-behind-menopausal-skin-issues-img-mobile" src="images/infographic_cake_mobile.jpg" style="width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+    <div class="dry-skin-dark-spots-fine-lines-component-container">
+      <div class="dry-skin-dark-spots-fine-lines-content-container">
+        <h1 style="font-weight: bold;">Dry Skin, Dark Spots & Fine Lines? Blame The Epidermis</h1>
+        <div class="dry-skin-dark-spots-fine-lines-content">
+          <p>Common Skin Issues Caused: <b> “Age spots” & Dry, flakey skin</b></p>
+          <p>Why Does It Happen?</p>
+          <img class="dry-skin-dark-spots-fine-lines-first-img-mobile" src="images/infographic_3.jpg" />
+          <p>
+            <img class="dry-skin-dark-spots-fine-lines-first-img" src="images/infographic_3.jpg" />
+            <p>Age spots” are caused by prolonged exposure to UV light from the sun - which may cause Vitamin E (a natural UV skin protector) levels to decrease.</p>
+           <p> UV light may also increase the free radicals (cell-destroyers) in the skin’s epidermis level. This may lead to dryness and flaking as we age
+          </p>
+          <p>Low hyaluronic acid levels is another big issue that causes dryness.</p>
+          <p>Hyaluronic acid is a naturally-occurring substance in the skin that’s known for it’s amazing capacity to hold onto 1000x its weight in moisture.</p>
+          <p>Simply put, it is what keeps the skin bouncy and supple.</p>
+          <p>The bad news is that research suggests that hyaluronic acid levels decline over time… causing the skin to look pale and dry as years pass.</p>
+          </p>
+          <div class="dry-skin-dark-spots-fine-lines-content-img">
+          <img src="images/infographic_4_desktop.jpg"/>
+        </div>
+        <div class="dry-skin-dark-spots-fine-lines-content-img-mobile">
+          <img src="images/infographic_4_mobile.jpg"/>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="deep-sagging-and-wrinkles-component-container">
+      <div class="deep-sagging-and-wrinkles-content-container">
+        <h1 style="font-weight: bold;">Deep Sagging & Wrinkles? It’s Likely Your Dermis...</h1>
+        <div class="deep-sagging-and-wrinkles-content">
+          <p>Common Skin Issues Caused: “Age spots” & Dry, flakey skin</p>
+          <p>Why Does It Happen?</p>
+          <p>Wrinkles and sagging skin are a result of 2 factors in the dermis layer:</p>
+          <div class="deep-sagging-and-wrinkles-two-boxes-container">
+            <div class="low-collagen-levels-component-container">
+              <div class="low-collagen-levels-img">
+                <img src="images/infographic_5.jpg">
+              </div>
+              <div class="low-collagen-levels-text">
+                <p>1. Low collagen levels</p>
+              <p>If the skin was a mattress, collagen are the springs that are holding it up. The higher the number of springs, the more even the surface of the mattress.</p>
+              <p>However, as we age, collagen levels drop… which leads to lesser support to hold up the skin.</p>
+              </div>              
+            </div> 
+            <div class="high-glycation-levels-component-container">
+              <div class="high-glycation-levels-img">
+                <img src="images/infographic_6.jpg">
+              </div>     
+              <div class="high-glycation-levels-text">
+                <p>2. High glycation levels</p>         
+                <p>Glycation is one of the main causes of skin aging.</p>                  
+                <p>It occurs when excess sugar we ingest reacts with collagen - and binds to it.</p>
+                <p>It’s like rust coating the springs (collagen) in the mattress (skin), and over time, the springs get destroyed — leading to uneven support for the skin.</p>
+                  <p>Low collagen and high glycation collectively lead to deep wrinkles and sagging skin as we age.</p>
+              </div>                 
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <div class="if-only-more-ladies-know-this-component-container">
+      <div class="if-only-more-ladies-know-this-content-container">
+        <div class="if-only-more-ladies-know-this-title-container"> 
+          <h1 style="font-weight: bold;">If Only More Ladies Knew This…<br>They Could Easily Enjoy Radiant And Supple 
+        </div>
+        <div class="if-only-more-ladies-know-this-content">
+          <p>
+            <img class="if-only-more-ladies-know-this-first-img" src="images/infographic_7.jpg" />
+            <p>Many ladies use skincare products that focus on the epidermis (outer skin), with a small percentage also focussing on the dermis (middle skin layer).</p>
+            <img class="if-only-more-ladies-know-this-first-img-mobile" src="images/infographic_7.jpg"/>
+            <p>However, did you know that the hypodermis (Skin base) layer is probably the biggest influencer of skin health?</p>
+            <p>Yet, so few ladies focus on this.</p>
+            <p>The hypodermis serves as the “bridge” between the skin and major blood vessels in the body.</p>
+            <p>When the hypodermis is healthy, there is:</p>
+          </p>
+          <div class="if-only-more-ladies-know-this-img-container">
+            <img src="images/infographic_8_desktop.jpg" style="width: 70%; height: auto;">
+          </div>
+          <div class="if-only-more-ladies-know-this-img-mobile-container">
+            <img src="images/infographic_8_mobile.jpg">
+          </div>
+          <p>
+            <p>… Giving our skin that radiant glow and suppleness.</p>
+            <p>However, research indicates that hypodermic health declines over time as we age.</p>
+            <p>And a HUGE contributor to this is:</p>
+            <p>Our gut health.</p>
+            <p>However, during menopause, gut health often declines as the low estrogen levels leads to higher chances of inflammation:</p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="low-estrogen-levels-component-container">
+        <div class="low-estrogen-levels-content-container">
+          <div class="low-strogen-levels-title-container">
+            <h1 style="font-weight: bold;">Low Estrogen Levels = Gut Inflammation = Poor Absorption of Vitamins, Minerals & Antioxidants Needed to Keep Skin Looking Healthy and Vibrant</h1>
+          </div>
+          <div class="low-strogen-levels-content-container">
+              <div class="low-strogen-levels-img">
+                <img class="low-strogen-levels-img-desktop" src="images/infographic_9_desktop.jpg" style="width: 100%; height: auto;">
+                <img class="low-strogen-levels-img-mobile" src="images/infographic_9_mobile.jpg">
+              </div>
+              <p>This may lead to inflammation of the hypodermis — which in turn can cause:</p>
+      
+              <div class="low-strogen-level-content-paragraph">
+        <p>- Poor distribution of nutrients to the skin cells</p>
+        <p>- Lower collagen production (leads to sagging)</p>
+        <p>- Lower hyaluronic acid production (leads to dry skin)</p>
+        <p>- Higher glycation (leads to wrinkles and uneven skin)</p>
+      </div>
+      
+        <p>… all of which makes the skin lose its vibrancy, firmness and youthfulness.</p>
+
+          </div>
+        </div>
+    </div>
+    <div class="there-is-a-natural-way-to-support-gut-health-component-container">
+      <div class="there-is-a-natural-way-to-support-gut-health-content-container">
+        <div class="there-is-a-natural-way-to-support-gut-health-title-container">
+          <h1 style="font-weight: bold;">Thankfully, There’s A Natural Way To Support Gut Health For Radiant, Supple Skin…</h1>
+        </div>
+        <div class="there-is-a-natural-way-to-support-gut-health-content">
+          <p>And nothing boosts gut health better than probiotics!</p>
+        <p>Lots of ladies know that probiotics are great for gut health, immunity and digestive function…</p>
+        <p>But not many know that there are SPECIAL strains that have skin-restoration capabilities:</p>
+          <div class="skin-restoration-capabilities-component-container">
+            <div class="first-skin-restoration-capability">
+              <img src="images/icons_1.png">
+              <div class="first-skin-restoration-capability-paragraph">
+                <h3>Lactobacillus reuteri (L.Reuteri)</h3>
+                <p>is found naturally in our digestive tract. Additional studies have shown that it can manage skin issues such as eczema.</p>
+              </div>
+            </div>
+            <div class="second-skin-restoration-capability">
+              <img src="images/icons_2.png">
+              <div class="second-skin-restoration-capability-paragraph">
+                <h3>Lactobacillus lactis (L.Lactis)</h3>
+                <p>has been shown to support skin hydration and elasticity… and most importantly,  promote hypodermic (Skin base) health for better regulation of nutrients to skin cells.</p>
+              </div>
+            </div>
+            <div class="third-skin-restoration-capability">
+              <img src="images/icons_3.png">
+              <div class="third-skin-restoration-capability-paragraph">
+                <h3>Bacillus coagulans (B. Coagulans)</h3>
+                <p>is a robust probiotic found in small amounts in fermented foods. Research indicates consumption of B. Coagulans produces anti-free radical chemicals & supports production of ceramides — which combats sagging and wrinkles.</p>
+              </div>
+            </div>
+          </div>
+          <!--for mobile starts-->
+          <div class="three-natural-ways-of-natural-support-gut-health-mobile-container">
+            <div id="carouselThreeNaturalWaysSupportGutHealth" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselThreeNaturalWaysSupportGutHealth" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselThreeNaturalWaysSupportGutHealth" data-slide-to="1"></li>
+                <li data-target="#carouselThreeNaturalWaysSupportGutHealth" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active three-natural-support-gut-health-carousel-item">
+                  <div class="first-skin-restoration-capability">
+                    <img src="images/icons_1.png">
+                    <div class="first-skin-restoration-capability-paragraph">
+                      <h3>Lactobacillus reuteri (L.Reuteri)</h3>
+                      <p>is found naturally in our digestive tract. Additional studies have shown that it can manage skin issues such as eczema.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item three-natural-support-gut-health-carousel-item">
+                  <div class="second-skin-restoration-capability">
+                    <img src="images/icons_2.png">
+                    <div class="second-skin-restoration-capability-paragraph">
+                      <h3>Lactobacillus lactis (L.Lactis)</h3>
+                      <p>has been shown to support skin hydration and elasticity… and most importantly,  promote hypodermic (Skin base) health for better regulation of nutrients to skin cells.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item three-natural-support-gut-health-carousel-item">
+                  <div class="third-skin-restoration-capability">
+                    <img src="images/icons_3.png">
+                    <div class="third-skin-restoration-capability-paragraph">
+                      <h3>Bacillus coagulans (B. Coagulans)</h3>
+                      <p>is a robust probiotic found in small amounts in fermented foods. Research indicates consumption of B. Coagulans produces anti-free radical chemicals & supports production of ceramides — which combats sagging and wrinkles.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--for mobile ends-->
+        </div>
+      </div>
+    </div>
+    <div class="we-got-your-back-sister-component-container">
+      <div class="we-got-your-back-sister-content-container">
+        <div class="we-got-your-back-sister-title-container">
+          <h1 style="font-weight: bold;">We Got Your Back, Sister!<br />
+            Repair, Hydrate & Glow At 50 With Radiancy</h1>    
+        </div>
+        <div class="we-got-your-back-sister-content">
+          <img src="images/radiancy heroshot_1.2.jpg">
+          <h2 style="font-weight: bold;">Triple Action, Skin Protection.</h2>
+          <p>Meet Radiancy - a marine collagen & probiotic supplement that ladies who want smooth & supple skin love to add to their daily routine when they need the extra support to feel lovely again. With Cherry Blossom Extract for added smoothening effect, anyone can look and feel their best.</p>
+          <div class="skin-protections-component-container row">
+            <div class="first-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Low-molecular-weight, Type I Marine Collagen</h5>
+                <img src="images/ingredients_1.1.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Probably the most effective form of collagen for ladies who want to age gracefully. It’s 60x smaller and more easily absorbed than regular collagen peptides. Helps combat wrinkles
+                and sagging.</p>
+                </p>
+              </div>
+            </div>
+            <div class="second-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Cherry Blossom Extract</h5>
+                <img src="images/ingredients_1.2.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">A fantastic anti-glycation herb that keeps glycation at bay — ensuring collagen in the skin remains healthy and intact for smooth skin.</p>
+                </p>
+              </div>
+            </div>
+            <div class="third-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>B. Coagulans</h5>
+                <img src="images/ingredients_1.3.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Studies suggest it promotes production anti-free radical chemicals & supports production of ceramides — which combats sagging and wrinkles.</p>
+                </p>
+              </div>
+            </div>
+            <div class="fourth-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>L. Reuteri</h5>
+                <img src="images/ingredients_1.4.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Studies have shown that it can manage skin issues such as eczema, acne and spots.</p>
+                </p>
+              </div>
+            </div>
+            <div class="fifth-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>L. Lactis</h5>
+                <img src="images/ingredients_1.5.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Supports skin hydration and elasticity. Also promotes hypodermic (Skin base) health for better regulation of nutrients to skin cells.</p>
+                </p>
+              </div>
+            </div>
+            <div class="sixth-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Vitamin C</h5>
+                <img src="images/ingredients_1.6.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">A potent antioxidant which aids in our skin’s natural regeneration process. Accelerates reparation of damaged cells by neutralising free radicals.</p>
+                </p>
+              </div>
+            </div>
+            <div class="seventh-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Vitamin E</h5>
+                <img src="images/ingredients_1.7.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Protects against the harmful effects of UV rays… slowing down the accumulation of free radicals in the skin.</p>
+                </p>
+              </div>
+            </div>
+            <div class="eighth-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Ceramides</h5>
+                <img src="images/ingredients_1.8.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Restores aging skin’s moisture retention ability for that fresh,dewy glow.</p>
+                </p>
+              </div>
+            </div>
+            <div class="ninth-skin-protection-container each-skin-protection-container col-lg-4 col-md-6 col-sm-12">
+              <div class="each-skin-protection">
+                <p>
+                <h5>Hyaluronic Acid</h5>
+                <img src="images/ingredients_1.9.png" style="float: right; width: 50%; height: auto;">
+                <p style="text-align: left;">Known for it’s amazing capacity to hold onto 1000x its weight in moisture. Keeps skin bouncy and supple.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="verified-reviews-of-radiancy-component-container">
+      <div class="verified-reviews-of-radiancy-content-container">
+        <div class="verified-reviews-of-radiancy-title-container">
+          <h1 style="font-weight: bold;">Verified Reviews Of Radiancy & Our Other Products That Are Helping Women Worldwide Reclaim
+            Their Health</h1>            
+        </div> 
+        <div class="verified-reviews-of-radiancy-content">
+          <h4>OKENDO REVIEWS OF RADIANCY AND OTHER PRODUCTS</h4>
+        </div>
+      </div>
+    </div>
+    <div class="why-most-collagen-products-dont-work-for-lady-component-container">
+      <div class="why-most-collagen-products-dont-work-for-lady-content-container">
+        <div class="why-most-collagen-products-dont-work-for-lady-title-container">
+          <h1 style="font-weight: bold;">
+            Why Most Collagen Products Don’t Work For Ladies Going Through Menopause (In The Long Run)
+          </h1>
+        </div>
+        <div class="why-most-collagen-products-dont-work-for-lady-content">
+          <img class="why-most-collagen-products-dont-work-for-lady-content-img-mobile" src="images/infographic_2.jpg"/>
+            <p>
+              <img class="why-most-collagen-products-dont-work-for-lady-content-img" src="images/infographic_2.jpg" style="float: left;width: 50%; height: auto;"/>
+              <p>- Many collagen products are only paying attention to the top 2 layers of the skin.</p>
+              <p>This means if there aren’t skin-specific probiotic strains in those products to support <b>hypodermis nutrient absorption</b>, those skin creams or collagen can only give a temporary lift before the skin starts sagging again.</p>
+              <p>Most ladies who truly care about their skin want a long-term solution.</p>
+              <p>NOT a band-aid.</p>
+              <p>That’s why we target the <b>ROOT CAUSE</b> of menopausal skin issues… i.e poor gut health.</p>
+              <p>We added in specific probiotic strains that support gut health and better absorption of vitamins, minerals and antioxidants needed to keep skin looking healthy & vibrant.</p>
+              <p>And we didn’t just stop there...</p>
+              <p>Radiancy also includes cherry blossom extract that supports “glycation” (the breakdown of skin structure due to high levels of sugar).</p> 
+              <p>This ensures that ladies who are transitioning to a healthier diet will see enhanced benefits and get faster results as they make Radiancy part of their skin & health routine.</p>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="radiancy-works-best-for-ladies-who-want-component-container">
+      <div class="radiancy-works-best-for-ladies-who-want-content-container">
+        <div class="radiancy-works-best-for-ladies-who-want-title-container">
+          <h1 style="font-weight: bold;text-align: center;">Radiancy Works Best For Ladies Who Want…</h1>
+        </div>
+        <div class="radiancy-works-best-for-ladies-who-want-content">
+          <img src="images/point-banner-m.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="free-shipping-for-2-bottles-component-container">
+      <div class="free-shipping-for-2-bottles-content-container">
+        <img src="images/icon_rocket.png">
+        <p>Free Shipping For 2 Bottles Or More in the US</p>
+      </div>
+    </div>
+    <div class="billing-info-status-component-container">
+      <div class="billing-info-status-content-container">
+        <div class="billing-info-status-content">
+          <img src="images/price table_order steps.png" style="width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+    <div class="all-order-are-one-time-purchase-only-component-container">
+      <div class="all-order-are-one-time-purchase-only-content-container">
+        <div class="all-order-are-one-time-purchase-only-title-container">
+              <h2>All Orders Are One-Time Purchases Only.</h2>
+              <h1 style="font-weight: bold;">Choose Your Option Below</h1>
+              <p style="text-align: left;">Rest assured that all orders made on this page are one-time purchases. This means that you will not be charged again in the subsequent months. There will not be any recurring billing or hidden charges. When you are ready to
+                reorder, you can purchase again from our website.</p>
+          
+        </div>
+        <div class="all-order-are-one-time-purchase-only-content">
+          <div class="row">
+            <div class="each-product-container col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="each-product-header">
+                <h3 >1 Bottle</h3>
+                <span>120 Capsules</span>
+              </div>
+              <div class="each-product-details">
+                  <div class="each-product-img">
+                    <img src="images/rad1.jpg">
+                  </div>
+                  <div class="each-product-info">
+                    <p style="opacity: 0;">Instant Savings:</p>
+                    <h2><span class="dollar-sign">$</span>59</h2>
+                    <h5>Per Bottle</h5>
+                    <p style="opacity: 0;">(sadf)</p>
+                    <br>
+                    <p>90-Day Monday Back Guarantee</p>
+                    <div style="opacity: 0;" class="free-express-shipping-container">
+                      <img src="images/icon_rocket2.png" style="height: 40px; width: auto;"/>
+                      <p>FREE Express Shipping in US
+                      <br>worth $9.95 (2-7 Days)</p>
+                    </div>
+                    <div class="one-time-purchase-button-container">
+                      <div class="one-time-purchase-button">
+                        <img src="images/icon_cart.png" style="height: 20px; width: auto;">
+                        <p>ONE TIME PURCHASE</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="each-product-container col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="each-product-header" style="background-color: #9e0b3f; color:#ffffff;">
+                <h3 >3 Bottles</h3>
+                <span>360 Capsules</span>
+              </div>
+              <div class="each-product-details">
+                <div class="each-product-img">
+                <img src="images/rad2nw.jpg">
+                </div>
+                <div class="each-product-info">
+                  <p>Instant Savings:$38</p>
+                  <h2><span class="dollar-sign">$</span>46</h2>
+                  <h5>Per Bottle</h5>
+                  <p>($139 for 3 bottles)</p>
+                  <br>
+                  <p>90-Day Monday Back Guarantee</p>
+                  <div class="free-express-shipping-container">
+                    <img src="images/icon_rocket2.png" style="height: 40px; width: auto;"/>
+                    <p>FREE Express Shipping in US
+                    <br>worth $9.95 (2-7 Days)</p>
+                  </div>
+                  <div class="one-time-purchase-button-container">
+                    <div class="one-time-purchase-button">
+                      <img src="images/icon_cart.png" style="height: 20px; width: auto;">
+                      <p>ONE TIME PURCHASE</p>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+            
+            <div class="each-product-container col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="each-product-header">
+                <h3 >2 Bottles</h3>
+                <span>240 Capsules</span>
+              </div>
+              <div class="each-product-details">
+                <div class="each-product-img">
+                <img src="images/rad3.jpg">
+                </div>
+                <div class="each-product-info">
+                  <p>Instant Savings:$8</p>
+                  <h2><span class="dollar-sign">$</span>59</h2>
+                  <h5>Per Bottle</h5>
+                  <p>($110 for 2 Bottles)</p>
+                  <br>
+                  <p>90-Day Monday Back Guarantee</p>
+                  <div class="free-express-shipping-container">
+                    <img src="images/icon_rocket2.png" style="height: 40px; width: auto;"/>
+                    <p>FREE Express Shipping in US
+                    <br>worth $9.95 (2-7 Days)</p>
+                  </div>
+                  <div class="one-time-purchase-button-container">
+                    <div class="one-time-purchase-button">
+                      <img src="images/icon_cart.png" style="height: 20px; width: auto;">
+                      <p>ONE TIME PURCHASE</p>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer-component-container">
+      <div class="footer-logo-image-container">
+        <img src="images/better_body_co_logo.png">
+      </div>
+      <div class="stay-updated-component-container">
+        <h3>Stay Updated</h3>
+        <div class="stay-updated-links-container">
+          <div class="stay-updated-first-link-group">
+            <ul>
+              <li><p><a href="https://www.betterbodyco.cc/#smile-home" target="_blank">Claim Points</a></p></li>
+              <li><p><a href="/blogs/health-articles">Blog</a></p></li>
+              <li><p><a href="/products/provitalize">Autoship</a></p></li>
+              <li><p><a href="/pages/about">About Us</a></p></li>
+              <li><p><a href="/pages/contact-us">Contact Us</a></p></li>
+            </ul>
+          </div>
+          <div class="stay-updated-second-link-group">
+            <ul>          
+              <li><p><a href="/pages/money-back-guarantee">Our Guarantee</a></p></li>
+              <li><p><a href="/pages/refund-policy">Our Refund Policy</a></p></li>
+              <li><p><a href="/pages/privacy-policy">Our Privacy Policy</a></p></li>
+              <li><p><a href="/pages/disclaimers">Disclaimer</a></p></li>
+            </ul>  
+          </div>
+        </div>
+      </div>
+      <div class="global-address-and-customer-service-container">
+      <div class="global-offices-component-container">
+        <h3>Global Offices</h3>
+        <div class="global-offices-addresses-container">
+          <div class="us-office-address-container"> 
+            <h4>United States:</h4>
+            <p>304 S. Jones Blvd,<br>
+            Las Vegas, NV 89107</p>
+          </div>
+          <div class="sg-office-address-container">
+            <h4>Singapore:</h4>
+            <p>469 Macpherson Road<br>
+              #02-01 368186</p>
+          </div>      
+        </div>
+      </div>
+      <div class="customer-services-component-container">
+        <h3>Customer Services</h3>
+        <p>Phone: (844) 707-7730 <br>
+        Email: contact@betterbody.co<br>  
+        Mon to Fri : 10AM to 4PM CST<br><br>
+      </div>
+    </div>
+    </div>
+  </footer>
+</html>
+<script src="js/index.js"></script>

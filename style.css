@@ -1,0 +1,1368 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+}
+
+/* Navigation Bar CSS starts*/
+
+.phone-number-bar-container {
+  height: 25px;
+  background-color: #c7c7c7;
+  text-align: right;
+}
+
+.phone-number-bar-container {
+  width: 100%;
+}
+
+.phone-number-bar-container p {
+  margin: 0 5px;
+  height: 25px;
+}
+
+.navigation-bar-container {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.navigation-bar-container .better-body-co-logo-container {
+  height: 100%;
+}
+
+.navigation-bar-container .better-body-co-logo-container img {
+  height: 100%;
+  width: auto;
+}
+
+.navigation-bar-container .nav .nav-item a {
+  color: #000000;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-container img {
+  height: 100%;
+  width: auto;
+}
+
+.mobile-nav-container {
+  display: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .mobile-nav-container {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-nav-container span:hover {
+    cursor: pointer;
+  }
+
+  .navigation-bar-container {
+    position: relative;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-container-mobile {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100vh - 40px);
+    z-index: 1;
+    width: 0;
+    transition: all 1s ease-in;
+    text-align: center;
+  }
+
+  .nav-container-mobile .nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav-container-mobile img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .nav-item a {
+    border-bottom: 1px solid #0000005b;
+    margin: 0 20px;
+    white-space: nowrap;
+  }
+}
+
+/* Navigation Bar CSS ends*/
+
+/* Body CSS starts */
+
+.radiancy-introduction-component-container img {
+  width: 100%;
+  height: auto;
+}
+
+.radiancy-introduction-mobile-image {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .radiancy-introduction-mobile-image {
+    display: block;
+  }
+  .radiancy-introduction-desktop-image {
+    display: none;
+  }
+}
+
+.raving-women-all-around-the-world-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.raving-women-all-around-the-world-component-container
+  .raving-women-all-around-the-world-title-component-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.raving-women-all-around-the-world-component-container
+  .raving-women-all-around-the-world-title-component-container
+  h1 {
+  font-weight: bold;
+}
+
+.three-women-component-container {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.three-women-mobile-component-container {
+  display: none;
+}
+
+.three-women-component-container .first-woman-component-container,
+.second-woman-component-container,
+.third-woman-component-container {
+  margin: 0 10px;
+  width: 25%;
+  padding: 10px;
+  background-color: #aaaaaa;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.three-women-component-container .first-woman-component-container:hover,
+.second-woman-component-container:hover,
+.third-woman-component-container:hover {
+  transition: ease 1s;
+  border: 1px solid #000000;
+  opacity: 1;
+}
+
+.raving-women-all-around-the-world-component-container
+  .three-women-component-container
+  img {
+  height: auto;
+  width: 100%;
+}
+
+.first-woman-feedback-component-container,
+.second-woman-feedback-component-container,
+.third-woman-feedback-component-container {
+  margin: 15px 10px;
+}
+
+.text-bold-and-italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.first-woman-feedback-component-container p,
+.second-woman-feedback-component-container p,
+.third-woman-feedback-component-container p {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 667px) {
+  .raving-women-all-around-the-world-component-container {
+    border: transparent;
+  }
+  .raving-women-all-around-the-world-title-component-container h1 {
+    font-size: 4vh;
+  }
+  .three-women-component-container {
+    display: none;
+  }
+  .first-woman-component-container,
+  .second-woman-component-container,
+  .third-woman-component-container {
+    display: none;
+  }
+  .three-women-mobile-component-container {
+    display: block;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  .first-woman-mobile-component-container,
+  .second-woman-mobile-component-container,
+  .third-woman-mobile-component-container {
+    background-color: #00000080;
+    width: 100%;
+    padding: 1% 15%;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .first-woman-mobile-component-container img,
+  .second-woman-mobile-component-container img,
+  .third-woman-mobile-component-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .three-women-caption-area {
+    background-color: #00000098;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    padding: 1% 15% 0;
+    color: #ffffff;
+  }
+
+  .three-women-caption-area h5 {
+    font-size: 4vw;
+  }
+
+  .three-women-caption-area p {
+    font-size: 3vw;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .raving-women-all-around-the-world-component-container {
+    border: transparent;
+  }
+}
+
+.ageing-gracefully-shouldnt-be-this-hard-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.ageing-gracefully-shouldnt-be-this-hard-title {
+  text-align: center;
+}
+
+.ageing-gracefully-shouldnt-be-this-hard-mobile-image {
+  display: none;
+}
+
+.ageing-gracefully-shouldnt-be-this-hard-content-container {
+  margin: 30px 70px 10px;
+  display: flex;
+}
+
+@media only screen and (max-width: 667px) {
+  .ageing-gracefully-shouldnt-be-this-hard-component-container {
+    border: transparent;
+  }
+  .ageing-gracefully-shouldnt-be-this-hard-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin: 0;
+    padding: 3vw;
+  }
+
+  .ageing-gracefully-shouldnt-be-this-hard-title {
+    font-size: 4vh;
+  }
+
+  .ageing-gracefully-shouldnt-be-this-hard-image {
+    display: none;
+  }
+  .ageing-gracefully-shouldnt-be-this-hard-mobile-image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.the-science-behind-menopausal-skin-issues-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.the-science-behind-menopausal-skin-issues-content-container {
+  margin: 30px 70px 10px;
+}
+
+.the-science-behind-menopausal-skin-issues-content-container h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.the-science-behind-menopausal-skin-issues-content {
+  margin: 0 5%;
+}
+.the-science-behind-menopausal-skin-issues-img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .the-science-behind-menopausal-skin-issues-component-container {
+    border: transparent;
+  }
+
+  .the-science-behind-menopausal-skin-issues-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .the-science-behind-menopausal-skin-issues-content-container h1 {
+    text-align: center;
+    font-size: 4vh;
+  }
+  .the-science-behind-menopausal-skin-issues-img-mobile {
+    display: inline-block;
+  }
+
+  .the-science-behind-menopausal-skin-issues-img {
+    display: none;
+  }
+}
+
+.dry-skin-dark-spots-fine-lines-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.dry-skin-dark-spots-fine-lines-content-container {
+  margin: 30px 70px;
+}
+
+.dry-skin-dark-spots-fine-lines-content-container h1 {
+  text-align: center;
+}
+
+.dry-skin-dark-spots-fine-lines-content {
+  margin: 0 5%;
+}
+
+.dry-skin-dark-spots-fine-lines-content-img {
+  display: flex;
+  justify-content: center;
+}
+
+.dry-skin-dark-spots-fine-lines-first-img {
+  float: left;
+  height: 20vw;
+  width: auto;
+}
+
+.dry-skin-dark-spots-fine-lines-content-img img {
+  width: 70%;
+  height: auto;
+}
+
+.dry-skin-dark-spots-fine-lines-first-img-mobile {
+  display: none;
+}
+
+.dry-skin-dark-spots-fine-lines-content-img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .dry-skin-dark-spots-fine-lines-component-container {
+    border: transparent;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content-container h1 {
+    text-align: center;
+    font-size: 4vh;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content-img {
+    display: none;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content {
+    display: block;
+  }
+
+  .dry-skin-dark-spots-fine-lines-first-img {
+    display: none;
+  }
+
+  .dry-skin-dark-spots-fine-lines-first-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content-img-mobile {
+    display: block;
+  }
+
+  .dry-skin-dark-spots-fine-lines-content-img-mobile img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.deep-sagging-and-wrinkles-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.deep-sagging-and-wrinkles-content-container {
+  margin: 30px 70px;
+}
+
+.deep-sagging-and-wrinkles-content-container h1 {
+  text-align: center;
+}
+
+.deep-sagging-and-wrinkles-content {
+  margin: 0 5%;
+}
+
+.deep-sagging-and-wrinkles-content p {
+  font-size: 1.2vw;
+}
+
+.low-collagen-levels-component-container,
+.high-glycation-levels-component-container {
+  border: 1px solid #404040;
+  margin: 20px 0;
+  width: 100%;
+  border-radius: 5px;
+  opacity: 0.8;
+  display: flex;
+}
+
+.low-collagen-levels-component-container:hover,
+.high-glycation-levels-component-container:hover {
+  background-color: #dddddd94;
+  transition: ease 1s;
+  opacity: 1;
+}
+
+.low-collagen-levels-img {
+  padding-right: 20px;
+  margin: 20px 0 20px 20px;
+  border-right: 1px solid #707070;
+  width: 40%;
+}
+.high-glycation-levels-img {
+  padding-right: 20px;
+  margin: 20px 0 20px 20px;
+  border-right: 1px solid #707070;
+  width: 40%;
+}
+
+.low-collagen-levels-img img,
+.high-glycation-levels-img img {
+  width: 100%;
+  height: auto;
+}
+
+.low-collagen-levels-text,
+.high-glycation-levels-text {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 667px) {
+  .deep-sagging-and-wrinkles-component-container {
+    border: transparent;
+  }
+  .deep-sagging-and-wrinkles-content-container {
+    margin: 0;
+  }
+
+  .deep-sagging-and-wrinkles-content-container h1 {
+    font-size: 4vh;
+  }
+
+  .low-collagen-levels-component-container,
+  .high-glycation-levels-component-container {
+    display: inline-block;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .deep-sagging-and-wrinkles-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .deep-sagging-and-wrinkles-content p {
+    font-size: 2.3vh;
+  }
+
+  .low-collagen-levels-img,
+  .high-glycation-levels-img {
+    border: transparent;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .low-collagen-levels-img img,
+  .high-glycation-levels-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .low-collagen-levels-text,
+  .high-glycation-levels-text {
+    padding-top: 20px;
+    border-top: 1px solid #707070;
+  }
+}
+
+.if-only-more-ladies-know-this-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.if-only-more-ladies-know-this-content-container {
+  margin: 30px 70px;
+}
+
+.if-only-more-ladies-know-this-title-container {
+  text-align: center;
+}
+
+.if-only-more-ladies-know-this-content {
+  margin: 0 5%;
+}
+
+.if-only-more-ladies-know-this-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.if-only-more-ladies-know-this-first-img {
+  width: 20vw;
+  height: auto;
+  float: left;
+}
+
+.if-only-more-ladies-know-this-first-img-mobile {
+  display: none;
+}
+
+.if-only-more-ladies-know-this-img-mobile-container {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .if-only-more-ladies-know-this-component-container {
+    border: transparent;
+  }
+
+  .if-only-more-ladies-know-this-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .if-only-more-ladies-know-this-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .if-only-more-ladies-know-this-first-img {
+    display: none;
+  }
+
+  .if-only-more-ladies-know-this-first-img-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .if-only-more-ladies-know-this-img-container {
+    display: none;
+  }
+
+  .if-only-more-ladies-know-this-img-mobile-container {
+    display: block;
+  }
+
+  .if-only-more-ladies-know-this-img-mobile-container img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.low-estrogen-levels-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.low-estrogen-levels-content-container {
+  margin: 30px 70px;
+}
+
+.low-strogen-levels-title-container {
+  text-align: center;
+}
+
+.low-strogen-levels-content-container {
+  margin: 0 5%;
+}
+
+.low-strogen-levels-img {
+  margin-bottom: 20px;
+}
+
+.low-strogen-level-content-paragraph {
+  margin: 0 5%;
+}
+
+.low-strogen-level-content-paragraph p {
+  line-height: 1;
+}
+
+.low-strogen-levels-img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .low-estrogen-levels-component-container {
+    border: transparent;
+  }
+
+  .low-estrogen-levels-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .low-strogen-levels-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .low-strogen-levels-img-desktop {
+    display: none;
+  }
+
+  .low-strogen-levels-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.there-is-a-natural-way-to-support-gut-health-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.there-is-a-natural-way-to-support-gut-health-content-container {
+  margin: 30px 70px;
+}
+
+.there-is-a-natural-way-to-support-gut-health-title-container {
+  text-align: center;
+}
+
+.there-is-a-natural-way-to-support-gut-health-content {
+  margin: 0 5%;
+}
+
+.skin-restoration-capabilities-component-container {
+  margin: 0 5%;
+}
+
+.skin-restoration-capabilities-component-container h3 {
+  font-size: 2vw;
+}
+
+.skin-restoration-capabilities-component-container p {
+  font-size: 1.3vw;
+}
+
+.first-skin-restoration-capability,
+.second-skin-restoration-capability,
+.third-skin-restoration-capability {
+  margin: 20px 0;
+  display: flex;
+  border-radius: 5px;
+  background-color: #ff91917c;
+  border: 1px solid transparent;
+  opacity: 0.9;
+}
+
+.first-skin-restoration-capability img,
+.second-skin-restoration-capability img,
+.third-skin-restoration-capability img {
+  height: auto;
+  width: 33%;
+  margin: 0 10px;
+}
+
+.first-skin-restoration-capability-paragraph,
+.second-skin-restoration-capability-paragraph,
+.third-skin-restoration-capability-paragraph {
+  margin: 20px 10px 0;
+}
+
+.first-skin-restoration-capability:hover,
+.second-skin-restoration-capability:hover,
+.third-skin-restoration-capability:hover {
+  transition: ease 1s;
+  border: 1px solid #404040;
+  opacity: 1;
+}
+
+.three-natural-ways-of-natural-support-gut-health-mobile-container {
+  display: none;
+}
+
+@media only screen and (max-width: 885px) {
+  .there-is-a-natural-way-to-support-gut-health-content-container {
+    margin: 0;
+  }
+
+  .skin-restoration-capabilities-component-container h3 {
+    font-size: 3vw;
+  }
+
+  .skin-restoration-capabilities-component-container p {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .there-is-a-natural-way-to-support-gut-health-component-container {
+    border: transparent;
+  }
+
+  .there-is-a-natural-way-to-support-gut-health-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .there-is-a-natural-way-to-support-gut-health-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 3vw;
+  }
+
+  .skin-restoration-capabilities-component-container {
+    display: none;
+  }
+
+  .three-natural-ways-of-natural-support-gut-health-mobile-container {
+    display: block;
+  }
+
+  .three-natural-support-gut-health-carousel-item {
+    background-color: #00000018;
+    border: 1px solid rgba(122, 122, 122, 0.349);
+    border-radius: 5px;
+  }
+  .first-skin-restoration-capability,
+  .second-skin-restoration-capability,
+  .third-skin-restoration-capability {
+    opacity: 1;
+    display: inline-block;
+    text-align: center;
+    height: 35vh;
+    margin: 0;
+  }
+
+  .first-skin-restoration-capability img,
+  .second-skin-restoration-capability img,
+  .third-skin-restoration-capability img {
+    width: 30%;
+    height: auto;
+  }
+
+  .first-skin-restoration-capability-paragraph,
+  .second-skin-restoration-capability-paragraph,
+  .third-skin-restoration-capability-paragraph {
+    margin-top: 0;
+  }
+
+  .first-skin-restoration-capability-paragraph h3,
+  .second-skin-restoration-capability-paragraph h3,
+  .third-skin-restoration-capability-paragraph h3 {
+    font-size: 2vh;
+  }
+
+  .first-skin-restoration-capability-paragraph p,
+  .second-skin-restoration-capability-paragraph p,
+  .third-skin-restoration-capability-paragraph p {
+    font-size: 1.7vh;
+  }
+}
+
+.we-got-your-back-sister-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.we-got-your-back-sister-content-container {
+  margin: 30px 70px;
+}
+
+.we-got-your-back-sister-title-container {
+  text-align: center;
+}
+
+.we-got-your-back-sister-content {
+  margin: 0 5%;
+  text-align: center;
+}
+
+.we-got-your-back-sister-content img {
+  width: 50%;
+  height: auto;
+}
+.skin-protections-component-container {
+  margin: 0;
+}
+
+.each-skin-protection-container {
+  margin: 5px 0;
+}
+
+.each-skin-protection {
+  background-color: #ff919133;
+  border-radius: 20px;
+  padding: 2% 5%;
+  height: 45vh;
+  opacity: 0.8;
+  border: 1px solid transparent;
+  transition: all 1s ease;
+}
+
+.each-skin-protection:hover {
+  border: 1px solid #ff9191b6;
+  opacity: 1;
+}
+
+.each-skin-protection-container h5 {
+  font-weight: bold;
+}
+
+.each-skin-protection-container p {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 667px) {
+  .we-got-your-back-sister-component-container {
+    border: transparent;
+  }
+
+  .we-got-your-back-sister-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 3vw;
+  }
+
+  .we-got-your-back-sister-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .we-got-your-back-sister-content h2 {
+    font-size: 3vh;
+  }
+
+  .we-got-your-back-sister-content img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.verified-reviews-of-radiancy-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.verified-reviews-of-radiancy-content-container {
+  margin: 30px 70px;
+}
+
+.verified-reviews-of-radiancy-title-container {
+  text-align: center;
+}
+
+.verified-reviews-of-radiancy-content {
+  height: 70vh;
+  background-color: #eaeaea;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.verified-reviews-of-radiancy-content h4 {
+  font-weight: bold;
+  color: #8e5866;
+}
+
+@media only screen and (max-width: 667px) {
+  .verified-reviews-of-radiancy-component-container {
+    border: transparent;
+  }
+
+  .verified-reviews-of-radiancy-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 3vw;
+  }
+
+  .verified-reviews-of-radiancy-title-container h1 {
+    font-size: 4vh;
+  }
+}
+
+.why-most-collagen-products-dont-work-for-lady-component-container {
+  margin: 0 5vw;
+  border-bottom: 1px solid #707070;
+}
+
+.why-most-collagen-products-dont-work-for-lady-content-container {
+  margin: 30px 70px;
+}
+
+.why-most-collagen-products-dont-work-for-lady-title-container {
+  text-align: center;
+}
+
+.why-most-collagen-products-dont-work-for-lady-content {
+  margin: 0 5%;
+}
+
+.why-most-collagen-products-dont-work-for-lady-content-img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .why-most-collagen-products-dont-work-for-lady-component-container {
+    border: transparent;
+  }
+
+  .why-most-collagen-products-dont-work-for-lady-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 3vw;
+  }
+
+  .why-most-collagen-products-dont-work-for-lady-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .why-most-collagen-products-dont-work-for-lady-content-img {
+    display: none;
+  }
+
+  .why-most-collagen-products-dont-work-for-lady-content-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.radiancy-works-best-for-ladies-who-want-component-container {
+  margin: 0 5vw;
+}
+
+.radiancy-works-best-for-ladies-who-want-content-container {
+  margin: 30px 70px 10px;
+}
+
+.radiancy-works-best-for-ladies-who-want-content {
+  margin: 1% 5% 0;
+  text-align: center;
+}
+
+.radiancy-works-best-for-ladies-who-want-content img {
+  width: 70%;
+  height: auto;
+}
+
+@media only screen and (max-width: 667px) {
+  .radiancy-works-best-for-ladies-who-want-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3vw;
+  }
+
+  .radiancy-works-best-for-ladies-who-want-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .radiancy-works-best-for-ladies-who-want-title-container h1 {
+    font-size: 4vh;
+  }
+}
+
+.free-shipping-for-2-bottles-component-container {
+  background-color: #9f0b3f;
+  border: 0;
+}
+
+.free-shipping-for-2-bottles-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.free-shipping-for-2-bottles-content-container img {
+  height: 5vw;
+  width: auto;
+}
+
+.free-shipping-for-2-bottles-content-container p {
+  font-size: 3vw;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media only screen and (max-width: 667px) {
+  .free-shipping-for-2-bottles-component-container {
+    padding: 0 10%;
+  }
+  .free-shipping-for-2-bottles-content-container p {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .free-shipping-for-2-bottles-content-container img {
+    height: 15vw;
+  }
+}
+
+.billing-info-status-component-container {
+  margin: 0 5vw;
+}
+
+.billing-info-status-content-container {
+  margin: 30px 70px;
+}
+
+.billing-info-status-content {
+  margin: 0 5%;
+}
+
+@media only screen and (max-width: 667px) {
+  .billing-info-status-content-container,
+  .billing-info-status-content {
+    margin: 0;
+  }
+}
+
+.all-order-are-one-time-purchase-only-component-container {
+  margin: 0 5vw;
+}
+
+.all-order-are-one-time-purchase-only-content-container {
+  margin: 30px 70px;
+}
+
+.all-order-are-one-time-purchase-only-title-container {
+  text-align: center;
+}
+
+.all-order-are-one-time-purchase-only-content {
+  margin: 0 5%;
+}
+
+.each-product-container {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.each-product-header {
+  text-align: center;
+  background-color: #ffebee;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 10px 0;
+  border: 1px solid #9c9c9c;
+  border-bottom: transparent;
+}
+
+.each-product-details {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  border: 1px solid #9c9c9c;
+  border-top: transparent;
+}
+
+.each-product-img {
+  width: 100%;
+  height: auto;
+}
+
+.each-product-info h2,
+.each-product-info h5,
+.each-product-info p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.each-product-info h2 {
+  font-size: 40px;
+}
+
+.dollar-sign {
+  font-size: 15px;
+}
+
+.each-product-info p {
+  font-size: 11px;
+}
+
+.free-express-shipping-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.free-express-shipping-container p {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.one-time-purchase-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.one-time-purchase-button {
+  height: 30px;
+  margin: 10px 0 30px;
+  width: 80%;
+  background-color: #9e0b3f;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-time-purchase-button p {
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.one-time-purchase-button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .each-product-info p {
+    font-size: 2vh;
+  }
+  .each-product-info h2 {
+    font-size: 5vh;
+  }
+  .dollar-sign {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .all-order-are-one-time-purchase-only-component-container {
+    border: transparent;
+  }
+
+  .all-order-are-one-time-purchase-only-content-container {
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f050;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 3vw;
+  }
+
+  .all-order-are-one-time-purchase-only-title-container h1 {
+    font-size: 4vh;
+  }
+
+  .all-order-are-one-time-purchase-only-title-container h2 {
+    font-size: 3.5vh;
+  }
+}
+
+/* footer CSS */
+footer {
+  border-top: 2px solid #242424;
+  background-color: #ff919133;
+}
+
+.footer-component-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 30px;
+}
+
+.footer-logo-image-container img {
+  height: 40px;
+  width: auto;
+  margin-top: 20%;
+}
+
+.stay-updated-links-container,
+.global-offices-addresses-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stay-updated-first-link-group,
+.stay-updated-second-link-group,
+.us-office-address-container,
+.sg-office-address-container {
+  margin: 0 10px;
+  text-align: left;
+}
+
+.stay-updated-component-container,
+.global-offices-component-container,
+.customer-services-component-container {
+  text-align: center;
+}
+
+.stay-updated-first-link-group ul,
+.stay-updated-second-link-group ul {
+  list-style-type: none;
+}
+
+.stay-updated-first-link-group ul li p,
+.stay-updated-second-link-group ul li p {
+  margin: 0;
+}
+
+.stay-updated-first-link-group ul li p a,
+.stay-updated-second-link-group ul li p a {
+  color: #000000;
+}
+
+.global-address-and-customer-service-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 967px) {
+  .stay-updated-links-container {
+    display: inline-block;
+  }
+
+  .stay-updated-first-link-group ul {
+    margin: 0;
+  }
+
+  .global-address-and-customer-service-container {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .footer-component-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-logo-image-container,
+  .stay-updated-links-container,
+  .global-offices-component-container {
+    margin: 20px 0;
+  }
+
+  .footer-logo-image-container img {
+    margin: 0;
+    width: 60%;
+    height: auto;
+  }
+  .stay-updated-links-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .stay-updated-first-link-group ul {
+    margin-bottom: 16px;
+  }
+}
